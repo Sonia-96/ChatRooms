@@ -1,0 +1,88 @@
+h1 {
+    color: #3F3B6C;
+    text-align: center;
+}
+
+body {
+    background-color: #EEF1FF;
+}
+
+label {
+    font-size: 20px;
+    color: #3F3B6C;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+
+#userColumn {
+    flex:20%;
+    background-color: #EEF1FF;
+    border: solid #645CAA 2px;
+    margin: 10px;
+    height: 500px;
+    overflow: auto;
+}
+
+#messageColumn {
+    flex:80%;
+    background-color: #EEF1FF;
+    border: solid #645CAA 2px;
+    margin: 10px;
+    height: 500px;
+    overflow: auto;
+}
+
+.room {
+    border: solid #645CAA 2px;
+    margin: 20px 50px 20px 50px;
+    /*border-radius: 100px;*/
+}
+
+.row {
+    display: flex;
+    border: solid #645CAA 3px;
+    padding: 5px;
+    margin: 20px 100px 20px 100px;
+}
+
+.header {
+    color: #3F3B6C;
+    font-size: 20px;
+    text-align: center;
+}
+
+#userList {
+    font-size: 20px;
+}
+
+#messageList {
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    overflow-y: scroll;
+    /*overflow: auto;*/
+}
+
+.justified {
+    display: flex;
+    justify-content: center;
+}
+
+#messageTA {
+    width: 500px;
+    height: 30px;
+}
+
+select {
+    outline: 0;
+    /*background: green;*/
+    /*background-image: none;*/
+    width: 100px;
+    height: 30px;
+    color: black;
+    border: 1px solid black;
+    border-radius: 3px;
+}

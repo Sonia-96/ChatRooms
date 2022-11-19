@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebChat</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div id="room">
+    <h1>Web Chat Room</h1>
+    <div class="justified">
+        <span>
+            <label>User Name: </label>
+            <textarea id="userNameTA">Sonia</textarea>
+        </span>
+        <span>
+            <label>Room Name: </label>
+            <textarea id="roomNameTA">chatroom</textarea>
+        </span>
+    </div>
+    <div class="row">
+        <div id="userColumn">
+            <p class="header"><b>Users</b></p>
+<!--            <ul id="userList"></ul>-->
+        </div>
+        <div id="messageColumn">
+            <p class="header"><b>Messages</b></p>
+<!--            <div id="messageList"></div>-->
+        </div>
+    </div>
+    <div class="justified">
+        <span>
+            <label for="roomMenu">Choose a Room:</label>
+            <select name="roomMenu" id="roomMenu">
+            </select>
+        </span>
+        <span>
+            <label>Send Message: </label>
+            <textarea id="messageTA"></textarea>
+        </span>
+    </div>
+</div>
+<script type="text/javascript" src="hello.js"></script>
+</body>
+</html>
