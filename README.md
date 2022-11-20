@@ -1,24 +1,24 @@
 # ChatRooms
-A chat app with rooms. The server-side is written in Java. The client-side is written in HTML/CSS/JavaScript (web app) and Java (Android app).
+A chat app with rooms. The server is written in Java. The client-side is written in bothHTML/CSS/JavaScript (web app) and Java (Android app).
 
-## Indtroductions
+## Introductions
 
-### Server side
-1. server - handle HTTP requests and Web Socket requests
+### Server
+1. Use threads to handle HTTP requests and Web Socket requests
 
-2. multiple rooms
+2. One client can enter multiple rooms, and the room will record clients's join, leave, and messages
 
-3. history messages (JSON format)
+3. The messages are in JSON format, and are stored in files named as the room
 
 ### Web app
 
-(image)
+![web-clients](./images/clients.gif)
 
 ### Android app
 
-(image)
+![androiClents](./images/androiClents.png)
 
-## Run it locally
+
 
 ## Credits
 
