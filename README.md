@@ -22,4 +22,4 @@ A chat app with rooms. The server is written in Java. The client-side is written
 
 ## Credits
 
-This game is my course project for the course CS6011 at MSD program. Thanks Dave for designing such a interesting program.
+This is my course project for the course CS6011 at [MSD](https://msd.utah.edu/?gclid=CjwKCAiAmuKbBhA2EiwAxQnt75vBtdNGBe7s0Bw--3lTKtnSo7SIWoJFL_pShCbyO1GSJZbeqGL_exoCaG8QAvD_BwE) program. Thanks [Dave](http://www.cs.utah.edu/~dav/) for designing such an interesting project.
